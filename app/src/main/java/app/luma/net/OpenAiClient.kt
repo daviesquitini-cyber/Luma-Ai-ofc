@@ -36,7 +36,7 @@ class OpenAiClient {
             .toString()
 
         val request = Request.Builder()
-            .url("https://api.openai.com/v1/chat/completions")
+            .url("https://api.groq.com/openai/v1/chat/completions")
             .header("Authorization", "Bearer $apiKey")
             .post(body.toRequestBody("application/json".toMediaType()))
             .build()
