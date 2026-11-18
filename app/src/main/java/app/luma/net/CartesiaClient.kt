@@ -24,7 +24,7 @@ class CartesiaClient {
 
     companion object {
         private const val SAMPLE_RATE = 24000
-        private const val MODEL_ID = "sonic-2"            // confira o modelo mais recente na doc da Cartesia
+        private const val MODEL_ID = "sonic-latest"
         private const val API_VERSION = "2025-04-16"      // idem para o header Cartesia-Version
         private const val MAX_CHARS = 280
     }
